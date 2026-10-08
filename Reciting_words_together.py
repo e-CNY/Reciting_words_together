@@ -86,8 +86,8 @@ EDGE_VOICE = {
 }
 
 # 超链接地址（在这里直接修改即可）
-VIDEO_URL = 'https://www.baidu.com/'   # 左下角「视频演示」链接
-HELP_URL = 'https://www.baidu.com/'    # 右下角「使用说明」链接
+VIDEO_URL = 'https://www.bilibili.com/video/BV1isHS6REdd'   # 左下角「视频演示」链接
+HELP_URL = 'https://github.com/e-CNY/Reciting_words_together/blob/main/README.md'    # 右下角「使用说明」链接
 
 
 class Word:
