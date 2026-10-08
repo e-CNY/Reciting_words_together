@@ -1,4 +1,4 @@
-# Reciting_ words_ together / 一起背单词
+# Reciting_words_together / 一起背单词
 [English](#english) | [中文](#chinese)
 
 ---
@@ -15,7 +15,7 @@
 3. 双击打开 `Reciting_ words_ together.py`
 4. 运行程序：首先点击tts设置，发音引擎推荐Edge-TTS，除了左下角的那些按钮操作，也可以使用鼠标滚轮翻页，左键点击右侧空白处翻面，点击单词发音
 
-[视频演示](https://www.bilibili.com/video/BV1y6hx6fEfU)
+[视频演示](https://www.bilibili.com/video/BV1isHS6REdd)
 
 ---
 
@@ -29,4 +29,4 @@ Contains word memory software in six languages of China, Britain, Japan, Korea, 
 3. Double-click to open `Reciting_ words_together.py`
 4. Run the program: First click tts settings. The pronunciation engine recommends Edge-TTS. In addition to the button operations in the lower left corner, you can also use the mouse wheel to turn pages, left click on the blank space on the right side to turn over, and click on the word pronunciation
 
-[Video Demonstration](https://www.bilibili.com/video/BV1y6hx6fEfU)
+[Video Demonstration](https://www.bilibili.com/video/BV1isHS6REdd)
