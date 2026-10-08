@@ -1,0 +1,38 @@
+MeloTTS 本地模型目录
+====================
+
+把从 ModelScope 下载的各语言模型文件夹放到本目录下即可，软件会自动识别。
+
+下载地址：
+  中文   https://www.modelscope.cn/models/myshell-ai/MeloTTS-Chinese/files
+  英文   https://www.modelscope.cn/models/myshell-ai/MeloTTS-English-v3
+  日文   https://www.modelscope.cn/models/myshell-ai/MeloTTS-Japanese
+  韩文   https://www.modelscope.cn/models/myshell-ai/MeloTTS-Korean/files
+  法文   https://www.modelscope.cn/models/myshell-ai/MeloTTS-French
+  西文   https://www.modelscope.cn/models/myshell-ai/MeloTTS-Spanish/files
+
+目录结构示例（每个语种一个子文件夹，内含 config.json 和 checkpoint.pth）：
+
+  MeloTTS/
+  ├── MeloTTS-Chinese/       ← 中文
+  │   ├── config.json
+  │   └── checkpoint.pth
+  ├── MeloTTS-English-v3/    ← 英文
+  │   ├── config.json
+  │   └── checkpoint.pth
+  ├── MeloTTS-Japanese/      ← 日文
+  ├── MeloTTS-Korean/        ← 韩文
+  ├── MeloTTS-French/        ← 法文
+  └── MeloTTS-Spanish/       ← 西文
+
+说明：
+  1. 子文件夹名只要包含语言关键词即可（如 English、Chinese、japanese、한국어、中文 等）。
+  2. 每个子文件夹里必须有 config.json 和 checkpoint.pth（缺一不可）。
+  3. 使用前请先安装 MeloTTS（注意：PyPI 的 melotts 包有问题，请从 GitHub 安装）：
+       pip install git+https://github.com/myshell-ai/MeloTTS.git
+       或：
+       git clone https://github.com/myshell-ai/MeloTTS.git
+       cd MeloTTS
+       pip install -e .
+     日文还需下载词典：python -m unidic download
+  4. 在软件里点「TTS 设置」→ 发音引擎选「MeloTTS（本地）」→ 保存，即可点 🔊 发音。
